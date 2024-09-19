@@ -1,0 +1,324 @@
+<resources>
+
+    <style name="Widget.Theme.LockScreenApp.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.LockScreenApp.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="AppStyleBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="SpeedSlider">
+        <item name="thumbColor">@color/primaryBlue50C</item>
+        <item name="trackColorInactive">@color/white</item>
+        <item name="trackColorActive">@color/primaryBlue50C</item>
+        <item name="trackHeight">4dp</item>
+    </style>
+
+    <style name="FullscreenDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="headingH1Bold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontWeight">500</item>
+        <item name="fontStyle">normal</item>
+        <item name="lineHeight">32sp</item>
+    </style>
+
+    <style name="headingH1Medium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontWeight">500</item>
+        <item name="fontStyle">normal</item>
+        <item name="lineHeight">32sp</item>
+    </style>
+
+    <style name="headingH1Regular">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontWeight">500</item>
+        <item name="fontStyle">normal</item>
+        <item name="lineHeight">32sp</item>
+    </style>
+
+    <style name="headingH2">
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">28sp</item>
+    </style>
+
+    <style name="headingH2Regular" parent="headingH2">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="headingH2Medium" parent="headingH2">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="headingH2Bold" parent="headingH2">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="headingH3Medium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontWeight">500</item>
+        <item name="fontStyle">normal</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="headingH3SemiBold">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontWeight">600</item>
+        <item name="fontStyle">normal</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="headingH4Medium">
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">600</item>
+        <item name="lineHeight">22sp</item>
+    </style>
+
+
+    <style name="headingH4SemiBold">
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">600</item>
+        <item name="lineHeight">22sp</item>
+    </style>
+
+    <style name="headingH4Bold">
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">700</item>
+        <item name="lineHeight">22sp</item>
+    </style>
+
+    <style name="NormalTextButton1Medium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+
+    <style name="NormalTextButton1Bold">
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+
+    <style name="NormalTextButton1Regular">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+
+    <style name="NormalTextButton2Regular">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">18sp</item>
+    </style>
+
+    <style name="NormalTextButton2Medium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">18sp</item>
+    </style>
+
+    <style name="ShapeAppearance.CircularBorder" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.CircularBorder12" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Border4dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="SubtextCaption1Regular">
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">14sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="fontStyle">normal</item>
+    </style>
+
+    <style name="SubtextCaption1Medium" parent="SubtextCaption1Regular">
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="SubtextCaption1SemiBold" parent="SubtextCaption1Regular">
+        <item name="fontFamily">@font/quicksand_semibold</item>
+    </style>
+
+    <style name="SubtextCaption2Regular">
+        <item name="android:textSize">10sp</item>
+        <item name="lineHeight">12sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="fontStyle">normal</item>
+    </style>
+
+    <style name="SubtextCaption2Medium" parent="SubtextCaption2Regular">
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="SubtextCaption2SemiBold" parent="SubtextCaption2Regular">
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="NativeFullWidthCTA">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">12dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:backgroundTintMode">add</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Rounded-->
+    <style name="rounded_corner_20">
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="rounded_corner_8">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="HeadingH3SemiBold">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:fontWeight">600</item>
+        <item name="android:textColor">@color/neutral100</item>
+    </style>
+
+    <style name="NormalTextButton2SemiBold">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:fontWeight">600</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NormalTextButton2Bold">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ItemPermission">
+        <item name="android:background">@drawable/bg_radius_16</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ContentPermissionContainer">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AllowPermissionButton">
+        <item name="android:text">Allow</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ItemTitlePermission">
+        <item name="android:textColor">@color/neutral100</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ItemDescriptionPermission">
+        <item name="android:textColor">@color/neutral100</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="IconPermissionAccepted">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NormalTextButton1SemiBold">
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">600</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+</resources>

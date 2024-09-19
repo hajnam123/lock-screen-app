@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "991208620680",
+    "project_id": "fb011-ar-sketch-paint",
+    "storage_bucket": "fb011-ar-sketch-paint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991208620680:android:a087df1e86b917a8a2153d",
+        "android_client_info": {
+          "package_name": "com.example.lockscreenapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1XpMhN3Ez4Flr61DxTZAmg4BB5y86KHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_radius_24_top_rightleft"
+        android:backgroundTint="@color/neutral10"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textviewTitle1"
+            style="@style/NormalTextButton2SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pen Tools"
+            android:textColor="@color/neutral100"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:value="9"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:layout_constraintEnd_toStartOf="@id/textview1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textviewTitle1"
+            app:thumbColor="@color/white"
+            app:thumbStrokeColor="@color/primaryBlue50C"
+            app:thumbStrokeWidth="6dp"
+            app:trackColorActive="@color/primaryBlue50C"
+            app:trackColorInactive="@color/neutral20"
+            app:trackHeight="8dp" />
+
+        <TextView
+            android:id="@+id/textview1"
+            style="@style/SubtextCaption1SemiBold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/bg_radius_8"
+            android:backgroundTint="@color/neutral20"
+            android:gravity="center"
+            android:lines="1"
+            android:minWidth="44dp"
+            android:textColor="@color/neutral100"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/slider1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/textview2"
+            app:layout_constraintTop_toTopOf="@+id/slider1"
+            android:text="9" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:value="255"
+            android:valueFrom="0"
+            android:valueTo="255"
+            app:layout_constraintEnd_toStartOf="@+id/textview2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textviewTitle2"
+            app:thumbColor="@color/white"
+            app:thumbStrokeColor="@color/primaryBlue50C"
+            app:thumbStrokeWidth="6dp"
+            app:trackColorActive="@color/primaryBlue50C"
+            app:trackColorInactive="@color/neutral20"
+            app:trackHeight="8dp" />
+
+        <TextView
+            android:id="@+id/textview2"
+            style="@style/SubtextCaption1SemiBold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_radius_8"
+            android:backgroundTint="@color/neutral20"
+            android:gravity="center"
+            android:lines="1"
+            android:textColor="@color/neutral100"
+            android:minWidth="44dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/slider2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/slider2"
+            android:text="100%" />
+
+        <TextView
+            android:id="@+id/textviewTitle2"
+            style="@style/NormalTextButton2SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Opacity"
+            android:textColor="@color/neutral100"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slider1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

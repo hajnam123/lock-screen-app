@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="supported_locales">
+        <item>en</item> <!-- United Kingdom -->
+        <item>de</item> <!-- German -->
+        <item>pt</item> <!-- Portuguese -->
+        <item>es</item> <!-- Spain -->
+        <item>fr</item> <!-- French -->
+        <item>zh</item> <!-- China -->
+        <item>hi</item> <!-- Hindi -->
+        <item>ru</item> <!-- Russian -->
+        <item>bn</item> <!-- Bengal -->
+        <item>ja</item> <!-- Japan -->
+        <item>mr</item> <!-- Marathi -->
+        <item>te</item> <!-- Telugu -->
+        <item>tr</item> <!-- Turkish -->
+        <item>ta</item> <!-- Tamil -->
+        <item>ko</item> <!-- Korea -->
+        <item>it</item> <!-- Italian -->
+        <item>th</item> <!-- Thailand -->
+        <item>vi</item> <!-- Vietnamese -->
+        <item>es</item> <!-- Spain -->
+
+    </string-array>
+
+    <string-array name="supported_locales_names">
+        <item>@string/setting_en</item> <!-- United Kingdom -->
+        <item>@string/setting_de</item> <!-- German -->
+        <item>@string/setting_pt</item> <!-- Portuguese -->
+        <item>@string/setting_spain</item> <!-- Spain -->
+        <item>@string/setting_fr</item> <!-- French -->
+        <item>@string/setting_china</item> <!-- China -->
+        <item>@string/setting_hindi</item> <!-- Hindi -->
+        <item>@string/setting_russian</item> <!-- Russian -->
+        <item>@string/setting_japan</item> <!-- Japan -->
+        <item>@string/setting_turkish</item> <!-- Turkish -->
+        <item>@string/setting_korea</item> <!-- Korea -->
+        <item>@string/setting_italian</item> <!-- Italian -->
+        <item>@string/setting_thailand</item> <!-- Thailand -->
+        <item>@string/setting_vi</item>
+    </string-array>
+
+    <string-array name="supported_locales_first">
+        <item>en</item> <!-- United Kingdom -->
+        <item>es</item> <!-- Spain -->
+        <item>vi</item> <!-- Vietnam -->
+        <item>it</item> <!-- Italian -->
+        <item>hi</item> <!-- Hindi -->
+        <item>zh</item> <!-- China -->
+        <item>de</item> <!-- German -->
+        <item>pt</item> <!-- Portugal -->
+        <item>fr</item> <!-- French-->
+        <item>in</item> <!-- Indonesian -->
+        <item>th</item> <!-- Thai -->
+        <item>ko</item> <!-- Korean -->
+        <item>ja</item> <!-- Japanese-->
+        <item>ms</item> <!-- Malaysian -->
+        <item>ru</item> <!-- Russian -->
+        <item>ar</item> <!-- Arabic -->
+        <item>zh-TW</item> <!-- Taiwanese -->
+        <item>my</item> <!-- Myanmar -->
+        <item>tr</item> <!-- Turkish -->
+        <item>ur</item> <!-- Pakistan -->
+    </string-array>
+
+    <string-array name="supported_locales_names_first">
+        <item>@string/setting_en</item> <!-- United Kingdom -->
+        <item>@string/setting_spain</item> <!-- Spain -->
+        <item>@string/setting_vi</item> <!-- Vietnamese -->
+        <item>@string/setting_italian</item> <!-- Italian -->
+        <item>@string/setting_hindi</item> <!-- Hindi -->
+        <item>@string/setting_china</item> <!-- China -->
+        <item>@string/setting_de</item> <!-- German -->
+        <item>@string/setting_pt</item> <!-- Portugal -->
+        <item>@string/setting_fr</item> <!-- French-->
+        <item>@string/setting_in</item> <!-- Indonesia-->
+        <item>@string/setting_th</item> <!-- Thai -->
+        <item>@string/setting_korea</item> <!-- Korean -->
+        <item>@string/setting_japan</item> <!-- Japanese -->
+        <item>@string/setting_ms</item> <!-- Malaysia -->
+        <item>@string/setting_russian</item> <!-- Russian -->
+        <item>@string/setting_ar</item> <!-- Arabic -->
+        <item>@string/setting_zh_tw</item> <!-- Taiwanese -->
+        <item>@string/setting_my</item> <!-- Myanmar -->
+        <item>@string/setting_tr</item> <!-- Turkish -->
+        <item>@string/setting_ur</item> <!-- Pakistan -->
+    </string-array>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CanvasView">
+
+        <attr name="paintColor" format="color" />
+        <attr name="paintStroke" format="integer"/>
+
+    </declare-styleable>
+</resources>
